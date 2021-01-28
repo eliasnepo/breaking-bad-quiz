@@ -4,25 +4,75 @@
   "description": "Teste os seus conhecimentos sobre a série mais querida da galera!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
+      "image": "https://ik.imagekit.io/b2twgpcgqmc/Breaking_bad_quiz/Walther_White_tMlhfWLrck.png",
+      "title": "Quando a série foi lançada?",
+      "description": "Essa é pra aquecer :)",
       "answer": 2,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "20 de Setembro de 2008",
+        "20 de Janeiro de 2009",
+        "20 de Janeiro de 2008",
+        "20 de Setembro de 2007"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://ik.imagekit.io/b2twgpcgqmc/Breaking_bad_quiz/teahub.io-breaking-bad-wallpaper-hd-719964_QQ5WwDqbS.png",
+      "title": "Qual era a cor da metanfetamina que eles vendiam na série?",
+      "description": "Essa é fácil haha :)",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Azul",
+         "Verde",
+         "Branca",
+         "Amarela"
+      ]
+    },
+    {
+      "image": "https://ik.imagekit.io/b2twgpcgqmc/Breaking_bad_quiz/320185_WC0xa9Y4g.jpg",
+      "title": "Respectivamente, quais personagens são esses?",
+      "description": ":)",
+      "answer": 1,
+      "alternatives": [
+         "Walter White, Hank Schrader, Jesse Pinkman, Gus Fring",
+         "Walter White, Jesse Pinkman, Gus Fring, Mike Ehrmantraut",
+         "Walter White, Jesse Pinkman, Gus Fring, Hank Schrader",
+         "Walter White, Mike Ehrmantraut, Jesse Pinkman, Gus Fring"
+      ]
+    },
+    {
+      "image": "https://ik.imagekit.io/b2twgpcgqmc/Breaking_bad_quiz/296854_HOOVXRlfT.jpg",
+      "title": "Qual é o nome do restaurante do Gus Fring?",
+      "description": "Esse restaurante tem história :)",
+      "answer": 1,
+      "alternatives": [
+         "Los Gallos Hermanos",
+         "Los Pollos Hermanos",
+         "Los Dos Hermanos",
+         "Los Hermanos"
+      ]
+    },
+    {
+      "image": "https://ik.imagekit.io/b2twgpcgqmc/Breaking_bad_quiz/678781_n0b5lZwJd.jpg",
+      "title": "Onde se localizava o câncer de Walter White?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+         "No cérebro",
+         "No fígado",
+         "No pulmão",
+         "No intestino"
+      ]
+    },
+    {
+      "image": "https://ik.imagekit.io/b2twgpcgqmc/Breaking_bad_quiz/1087630_-8BCXEv-Ap.jpg",
+      "title": "Qual estabelecimento era usado para lavagem de dinheiro do Sr White?",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+         "Mercado",
+         "Lava rápido",
+         "Restaurante",
+         "Salão de beleza"
       ]
     }
   ],
