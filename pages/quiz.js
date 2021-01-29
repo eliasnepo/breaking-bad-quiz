@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import { useRouter } from 'next/router';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
@@ -9,11 +10,15 @@ import AlternativesForm from '../src/components/AlternativesForm';
 import Button from '../src/components/Button';
 import Loading from '../src/components/Loading';
 
+
 function ResultWidget({ results }) {
+  const router = useRouter();
+  const { name } = router.query;
+
   return (
     <Widget>
       <Widget.Header>
-        Tela de Resultado:
+        Resultado de {name}:
       </Widget.Header>
 
       <Widget.Content>
@@ -38,9 +43,10 @@ function ResultWidget({ results }) {
               {index + 1}
               {' '}
               Resultado:
+              {' '}
               {result === true
-                ? 'Acertou'
-                : 'Errou'}
+                ? 'acertou :)'
+                : 'errou :('}
             </li>
           ))}
         </ul>
@@ -111,7 +117,7 @@ function QuestionWidget({
               onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
-            }, 3 * 1000);
+            }, 1 * 1000);
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {

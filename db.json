@@ -43,10 +43,10 @@
       "image": "https://ik.imagekit.io/b2twgpcgqmc/Breaking_bad_quiz/296854_HOOVXRlfT.jpg",
       "title": "Qual é o nome do restaurante do Gus Fring?",
       "description": "Esse restaurante tem história :)",
-      "answer": 1,
+      "answer": 0,
       "alternatives": [
-         "Los Gallos Hermanos",
          "Los Pollos Hermanos",
+         "Los Gallos Hermanos",
          "Los Dos Hermanos",
          "Los Hermanos"
       ]
