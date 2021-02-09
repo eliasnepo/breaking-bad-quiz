@@ -7,7 +7,7 @@ Feito durante a **2ª imersão de ReactJS e NextJS** da <a src="https://www.alur
 ---
 
 <h2 align="center">
-    <b><a href="https://breaking-bad-quiz.eliasnepo.vercel.app/">Acesse a demonstração</a></b>
+    <a href="https://breaking-bad-quiz.eliasnepo.vercel.app/"><img src="https://ik.imagekit.io/b2twgpcgqmc/Buttons/button_acessar-demonstracao__4__hh_ZaME5a.png" /></a>
 </h2>
 
 ---
